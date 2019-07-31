@@ -18,11 +18,12 @@
 		"acme",
 		"greenlock"
 	],
-	"author": "AJ ONeal <coolaj86@gmail.com> (https://coolaj86.com/)",
+	"author": "Nyaundi Brian <danleyb2@gmail.com> (https://danleyb2.online/)",
+	"contributors": [
+		"AJ ONeal <coolaj86@gmail.com> (https://coolaj86.com/)"
+	],
 	"license": "MPL-2.0",
-	"dependencies": {
-		"@root/request": "^1.3.11"
-	},
+	"dependencies": {},
 	"devDependencies": {
 		"acme-dns-01-test": "^3.2.1",
 		"dotenv": "^8.0.0"
