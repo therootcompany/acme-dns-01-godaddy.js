@@ -17,7 +17,7 @@ First you create an instance with your API token:
 
 ```js
 var dns01 = require('acme-dns-01-godaddy').create({
-	baseUrl: 'https://api.godaddy.com', // default
+	baseUrl: 'https://api.godaddy.com/v1', // default
 	key: 'xxxx',
 	secret: 'xxxx'
 });
