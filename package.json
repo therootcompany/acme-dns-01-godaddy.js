@@ -1,6 +1,6 @@
 {
 	"name": "acme-dns-01-godaddy",
-	"version": "3.0.0",
+	"version": "3.0.1",
 	"description": "Godaddy DNS for Let's Encrypt / ACME dns-01 challenges with ACME.js and Greenlock.js",
 	"main": "index.js",
 	"scripts": {
