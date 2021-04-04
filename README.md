@@ -59,10 +59,10 @@ dns01
 		dnsHost: '_acme-challenge.foo.example.com',
 		dnsAuthorization: 'xxx_secret_xxx'
 	})
-	.then(function() {
+	.then(function () {
 		console.log('TXT record set');
 	})
-	.catch(function() {
+	.catch(function () {
 		console.log('Failed to set TXT record');
 	});
 ```

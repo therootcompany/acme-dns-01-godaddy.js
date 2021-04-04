@@ -17,10 +17,10 @@ var challenger = require('./index.js').create({
 // but the integration tests require that you have control over the domain
 tester
 	.testZone('dns-01', zone, challenger)
-	.then(function() {
+	.then(function () {
 		console.info('PASS', zone);
 	})
-	.catch(function(e) {
+	.catch(function (e) {
 		console.error(e.message);
 		console.error(e.stack);
 	});
